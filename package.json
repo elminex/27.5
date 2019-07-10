@@ -1,0 +1,23 @@
+{
+  "name": "27.3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "actions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elminex/27.3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elminex/27.3/issues"
+  },
+  "homepage": "https://github.com/elminex/27.3#readme",
+  "dependencies": {
+    "redux": "^4.0.4",
+    "uuid": "^3.3.2"
+  }
+}
