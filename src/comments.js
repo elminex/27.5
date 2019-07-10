@@ -17,21 +17,25 @@ function comments(state = [], action) {
             return state.map((comment) => {
                 if (comment.id === action.id) {
                     comment.text = action.text;
+                    return comment;
                 }
+                return comment;
             });
 
         case THUMB_UP_COMMENT:
             return state.map((comment) => {
                 if (comment.id === action.id) {
-                    comment.votes++;
+                    return { ...comment, votes: comment.votes + 1 };
                 }
+                return comment;
             });
 
         case THUMB_DOWN_COMMENT:
             return state.map((comment) => {
                 if (comment.id === action.id) {
-                    comment.votes--;
+                    return { ...comment, votes: comment.votes - 1 };
                 }
+                return comment;
             });
         default:
             return state;
