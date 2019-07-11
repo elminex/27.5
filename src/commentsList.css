@@ -1,0 +1,5 @@
+.comments-list {
+    list-style-type: none;
+    padding: 32px;
+    border: solid 1px black;
+}

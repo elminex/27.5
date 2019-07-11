@@ -6,6 +6,7 @@ import reducer from './reducer';
 import './index.css';
 import App from './App';
 import { addComment } from './actions';
+import 'normalize.css';
 
 const store= createStore(reducer);
 
@@ -16,5 +17,5 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-store.dispatch(addComment('pierwszy'));
-store.dispatch(addComment('drugi'));
+store.dispatch(addComment('Pierwszy komentarz testowy'));
+store.dispatch(addComment('Drugi komentarz testowy'));

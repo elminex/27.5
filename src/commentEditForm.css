@@ -1,0 +1,16 @@
+.edit__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit__input-label {
+    margin-right: 8px;
+}
+
+.edit__input {
+    width: 100%;
+}
+
+.form__submit {
+    flex: 1;
+}

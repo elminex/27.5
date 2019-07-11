@@ -1,0 +1,30 @@
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100px;
+    border: 1px solid black;
+    padding: 8px 16px 4px;
+}
+
+.comment__utilities {
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+}
+
+.comment__votes {
+    margin-right: 8px;
+}
+
+.btn-icon {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-right: 4px;
+}
+
+.btn-icon:hover {
+    color: blue;
+}

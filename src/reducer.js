@@ -4,7 +4,7 @@ import users from './users';
 
 const reducer = combineReducers(
     {
-        comments, 
+        comments,
         users
     }
 );

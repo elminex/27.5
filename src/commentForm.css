@@ -1,0 +1,15 @@
+.form__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input {
+    width: auto;
+    flex: 2;
+    margin: 0 8px;
+}
+
+.form__submit {
+    flex: 1;
+}
