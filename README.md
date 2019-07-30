@@ -5,4 +5,4 @@ It uses React-redux to manage adding/removing/viewing comments. All is built wit
 
 ## Starting
 
-Type `npm install` in terminal to get necessary packages then start the app with `npm start`. Visit (localhost:3000)[http://localhost:3000] to use the app in dev server.
+Type `npm install` in terminal to get necessary packages then start the app with `npm start`. Visit [localhost:3000](http://localhost:3000)to use the app in dev server.
